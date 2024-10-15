@@ -5,4 +5,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 project(tacc)
 
 add_executable(tacc
-    src/tacc.cc)
+    src/tacc.cc
+    src/lexer.cc
+    src/token.cc
+)
